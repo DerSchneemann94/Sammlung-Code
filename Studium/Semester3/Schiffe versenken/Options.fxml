@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="450.0" minWidth="800.0" prefHeight="450.0" prefWidth="800.0" styleClass="options" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ToggleButton fx:id="btnMusic" layoutX="340.0" layoutY="238.0" mnemonicParsing="false" prefWidth="120.0" text="Music On/Off" />
+      <Button fx:id="btnBackToMenu" layoutX="340.0" layoutY="360.0" mnemonicParsing="false" prefWidth="120.0" text="Back to main menu" />
+      <Slider fx:id="sliderVolume" blockIncrement="1.0" layoutX="340.0" layoutY="176.0" majorTickUnit="1.0" max="4.0" minorTickCount="0" prefHeight="12.0" prefWidth="120.0" snapToTicks="true" value="2.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="340.0" layoutY="124.0" prefHeight="59.0" prefWidth="120.0" text="Volume" textFill="WHITE" AnchorPane.bottomAnchor="267.0" AnchorPane.leftAnchor="340.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="124.0">
+         <font>
+            <Font size="28.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
