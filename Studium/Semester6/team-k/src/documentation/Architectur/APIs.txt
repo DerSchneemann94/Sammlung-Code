@@ -1,0 +1,28 @@
+
+
+
+1.	https://newsapi.org/
+
+	- komplett kostenlos für Devs bei privaten Projekten
+
+	example resource:
+		{
+		"status": "ok",
+		"totalResults": 267,
+		-"articles": [
+		-{
+		-"source": {
+		"id": null,
+		"name": "Gizmodo.com"
+		},
+		"author": "Lucas Ropek",
+		"title": "A Hacker Gang's Alleged Members Are in Jail. It's Still Stealing Data.",
+		"description": "London police announced Friday that two teenagers had been charged with hacking crimes in connection to LAPSUS$, a cybercriminal gang that has managed to breach some of the biggest tech companies in the world over the past few months. Far from disintegrating …",
+		"url": "https://gizmodo.com/lapsus-alleged-members-are-in-jail-but-the-gang-hacke-1848727403",
+		"urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/0344ccfa7cd6623ceaf1ab23087dceeb.jpg",
+		"publishedAt": "2022-04-03T09:13:00Z",
+		"content": "London police announced Friday that two teenagers had been charged with hacking crimes in connection to LAPSUS$, a cybercriminal gang that has managed to breach some of the biggest tech companies in … [+6161 chars]"
+		}
+		
+		
+2. 	https://usearch.com/news-api	

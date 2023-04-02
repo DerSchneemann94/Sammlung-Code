@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="boxSPPlace" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="paneSPPlace" minWidth="220.0" prefHeight="450.0" prefWidth="220.0">
+         <children>
+            <Button fx:id="btnSPRotate" layoutX="40.0" layoutY="90.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="60.0" text="Rotate" />
+            <Button fx:id="btnSPPlace" layoutX="125.0" layoutY="90.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="60.0" text="Place" />
+            <Button fx:id="btnSPReady" layoutX="73.0" layoutY="204.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="Ready" />
+            <Label fx:id="lblSPShipAmount" layoutX="20.0" layoutY="39.0" text="ShipAmount" />
+         </children>
+      </Pane>
+   </children>
+</HBox>

@@ -1,0 +1,96 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "schlauer roboter",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hallo",
+            "wie geht\u0027s dir",
+            "sag hallo welt",
+            "sag hallo"
+          ]
+        },
+        {
+          "name": "RobotControlIntent",
+          "slots": [
+            {
+              "name": "movement",
+              "type": "MyDirection"
+            }
+          ],
+          "samples": [
+            "fahre nach {movement}",
+            "{movement} an",
+            "Fahre {movement}",
+            "{movement}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Anhalten",
+                "synonyms": [
+                  "halte"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Rückwärts",
+                "synonyms": [
+                  "hinten"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Links"
+              }
+            },
+            {
+              "name": {
+                "value": "Rechts"
+              }
+            },
+            {
+              "name": {
+                "value": "Forwärts",
+                "synonyms": [
+                  "vorne"
+                ]
+              }
+            }
+          ],
+          "name": "MyDirection"
+        }
+      ]
+    }
+  },
+  "version": "8"
+}

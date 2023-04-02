@@ -1,0 +1,9 @@
+Download: https://www.python.org/ftp/python/3.8.16/Python-3.8.16.tgz
+
+sudo apt-get install make build-essential libssl-dev zlib1g-dev libreadline-dev libbz2-dev libsqlite3-dev wget curl llvm libncurses5-dev
+
+./configure --enable-optimizations --with-ensurepip=install --with-zlib
+
+sudo make altinstall 
+
+

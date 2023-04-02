@@ -1,0 +1,36 @@
+allgemeines Konzept:
+	- auf einem externen Server verarbeitet ein Server die verschiedenen Befehle mit Hilfe von einem dafür definierten Service 
+	- die daraus resultierenden Befehle werden von einer zentralen Routine ausgewerten. Anschließend deligiert der Service den Befehl mit Hilfe einer Schnittstelle die Befehle an den Raspberry Pi
+	
+	
+	zu lösende Aufgaben:
+		- Interfaces für die Schnittstellen definieren 
+		- Interface für die Nachricht definieren
+		- Zentralen Service erweiterbar gestalten --> Subscriber-Pattern
+		
+		
+	Server:	
+		Service-Spezifikationen:
+			zentraler Service: 
+				- Registrierung der Empfänger-Services on the fly mit Priorität
+				- Vergleichen der Nachrichten und Auswahl des passenden Befehls 
+					--> Übermittlung an den Kommunikations-Service
+			
+			kommunikations-Services:
+				Befehle:
+					- Auswerten der empfangenen Nachrichten und übermitteln der Informationen an den zentralen Service
+				
+				RaspberryPi:
+					- Schnittstelle für die Kommunikation
+					
+				
+	RaspberryPi:
+		Service-Spezifikationen:
+			zentraler Service:
+			
+		
+	
+
+		
+			
+			

@@ -1,0 +1,7 @@
+setup.py
+RoboModule/__init__.py
+RoboModule/roboModule.py
+RoboModule.egg-info/PKG-INFO
+RoboModule.egg-info/SOURCES.txt
+RoboModule.egg-info/dependency_links.txt
+RoboModule.egg-info/top_level.txt

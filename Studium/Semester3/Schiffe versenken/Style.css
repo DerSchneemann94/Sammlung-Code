@@ -1,0 +1,20 @@
+.startmenu{
+    -fx-background-image: url("/images/Hintergrundbild.jpg");
+    -fx-background-size: 100% 100%;
+}
+.waitingroom{
+    -fx-background-image: url("/images/Wartezimmer.jpg");
+    -fx-background-size: 100% 100%;
+}
+.settings {
+    -fx-background-image: url("/images/Settings.jpg");
+    -fx-background-size: 100% 100%;
+}
+.options {
+    -fx-background-image: url("/images/Options.jpg");
+    -fx-background-size: 100% 100%;
+}
+.role {
+    -fx-background-image: url("/images/MPRole.jpg");
+    -fx-background-size: 100% 100%;
+}

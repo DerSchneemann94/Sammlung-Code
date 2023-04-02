@@ -1,0 +1,49 @@
+Backend: 
+	Authentifikation:
+		- passport-jwt library handelt den Token abgleich und token verifizierung
+		- jwt  
+			- Guard unterbricht eine Request die mit dem Guard-Annotator markiert ist und überprüft sie anhand der übergebenen Strategy
+				--> jwt-strategy.ts. überprüft ob das token von uns kommt, übereinstimmt und nicht abgelaufen ist. 
+			 
+			 
+	- User Service als Proxy or API Gateway ?
+	- Kubernetes 
+	- Http Interceptor
+	- Password hashing with argon2 authentication with moongoose
+	- Configuration
+
+	Kommunikation zwischen den Services erfolgt über Events:
+		- message-pattern (send): req-res über zwei channel !! WICHTIG !! wenn die response die von send zurück kommt nicht per return im Controller zurückgegeben wird , dann wird der Compiler denn send-Befehl auf Grund von Optimierungen entfernen.
+		- event-pattern (emit): event augesandt ohne Rückgabewert 
+	
+		Links: 
+		https://dev.to/alesanchez/building-authentication-for-microservices-using-nestjs-1fne
+		https://progressivecoder.com/how-to-create-a-nestjs-microservice-using-request-response-approach/#3-request-response-message-pattern
+		https://dev.to/thisdotmedia/build-an-api-gateway-with-nestjs-in-10-minutes-16db
+
+	User-Service:
+		- soll eine Route habe, die eine Liste der User zurück gibt
+
+
+	News-Service:
+		- Wenn der News-Service Artikel zurück sendet, sollen die Userobjekte in den Kommentarobjekten mit zurück geschickt werden.
+
+
+	Kubernetes: 
+		- https://www.youtube.com/watch?v=cNh1CouQCWc
+		- https://dev.to/thisdotmedia/build-an-api-gateway-with-nestjs-in-10-minutes-16db
+		
+	
+
+
+	offene Fragen:
+		- Skalierbarkeit der mongo database, wenn wir Kubernetes nutzen
+		- Proxy zusammen mit dem Auth Service ? oder Proxy -> Auth -> Proxy -> News ?
+	
+nest.js:
+	- controller definieren Endpunkte
+	- mongoose als database connector
+
+	
+(pactum:
+	lib for end to end tests)

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="450.0" minWidth="800.0" prefHeight="450.0" prefWidth="800.0" styleClass="settings" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Slider fx:id="sliderSPdifficulty" blockIncrement="1.0" layoutX="79.0" layoutY="218.0" majorTickUnit="1.0" max="2.0" minorTickCount="0" snapToTicks="true" />
+      <Label fx:id="lblSPEasy" layoutX="67.0" layoutY="246.0" text="Easy" textFill="RED" />
+      <Label fx:id="lblSPMedium" layoutX="127.0" layoutY="246.0" text="Medium" />
+      <Label fx:id="lblSPHard" layoutX="202.0" layoutY="246.0" text="Hard" />
+      <TextField fx:id="textSPFieldSize" layoutX="127.0" layoutY="67.0" prefHeight="25.0" prefWidth="106.0" text="10" />
+      <TextField fx:id="textFieldSPtwo" layoutX="531.0" layoutY="37.0" prefHeight="25.0" prefWidth="106.0" text="1" />
+      <Label layoutX="57.0" layoutY="66.0" text="FieldSize" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="532.0" layoutY="14.0" text="Amount of Ships" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="500.0" layoutY="36.0" prefHeight="27.0" prefWidth="26.0" text="2er" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="textFieldSPthree" layoutX="531.0" layoutY="67.0" prefHeight="25.0" prefWidth="106.0" text="0" />
+      <Label layoutX="500.0" layoutY="66.0" text="3er" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="textFieldSPfour" layoutX="531.0" layoutY="99.0" prefHeight="25.0" prefWidth="106.0" text="0" />
+      <Label layoutX="500.0" layoutY="98.0" text="4er" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="textFieldSPfive" layoutX="531.0" layoutY="129.0" prefHeight="25.0" prefWidth="106.0" text="0" />
+      <Label layoutX="500.0" layoutY="128.0" text="5er" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="114.0" layoutY="191.0" text="Difficulty" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button fx:id="btnSPPlay" layoutX="325.0" layoutY="254.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Play" />
+      <Button fx:id="btnSPLoad" layoutX="350.0" layoutY="319.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Load" />
+   </children>
+</AnchorPane>

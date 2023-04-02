@@ -1,0 +1,3 @@
+websocket-client
+mqttools
+python-dispatch

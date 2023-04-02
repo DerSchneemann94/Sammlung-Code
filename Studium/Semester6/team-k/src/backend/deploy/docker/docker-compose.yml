@@ -1,0 +1,99 @@
+version: "3"
+
+networks:
+  backend:
+    driver: bridge
+  frontend:
+    external:
+      name: infrastructure
+
+services:
+  api-gateway:
+    build:
+      context: ../../
+      dockerfile: ./Dockerfile
+      args:
+        NODE_VERSION: 14.8.0-alpine
+        SERVICE_NAME: api-gateway
+    restart: always
+    hostname: api-gateway
+    ports:
+      - "2999:2999"
+    networks:
+      - frontend
+      - backend
+
+  user-service:
+    build:
+      context: ../../
+      dockerfile: ./Dockerfile
+      args:
+        NODE_VERSION: 14.8.0-alpine
+        SERVICE_NAME: user-service
+    restart: always
+    hostname: user-service
+    networks:
+      - backend
+    # links:
+    #  - db
+
+  articles-service:
+    build:
+      context: ../../
+      dockerfile: ./Dockerfile
+      args:
+        NODE_VERSION: 14.8.0-alpine
+        SERVICE_NAME: articles-service
+    restart: always
+    hostname: articles-service
+    networks:
+      - backend
+    # links:
+    #  - db
+    
+  api-fetching-service:
+    build:
+      context: ../../
+      dockerfile: ./Dockerfile
+      args:
+        NODE_VERSION: 14.8.0-alpine
+        SERVICE_NAME: api-fetching-service
+    restart: always
+    hostname: api-fetching-service
+    networks:
+      - backend
+    # links:
+    #  - db
+
+  comments-service:
+    build:
+      context: ../../
+      dockerfile: ./Dockerfile
+      args:
+        NODE_VERSION: 14.8.0-alpine
+        SERVICE_NAME: comments-service
+    restart: always
+    hostname: comments-service
+    networks:
+      - backend
+    # links:
+    #  - db
+
+  # Uncomment to enable MongoDB
+  # db:
+  #   image: "mongo"
+  #   restart: always
+  #   environment:
+  #     MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USER}
+  #     MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
+  #     MONGO_INITDB_DATABASE: ${MONGO_DATABASE}
+  #     MONGO_USER: ${MONGO_USER}
+  #     MONGO_PASSWORD: ${MONGO_PASSWORD}
+  #     TZ: "Europe/Warsaw"
+  #   volumes:
+  #     - "./db/data/db-files:/data/db"
+  #     - "./db/init/:/docker-entrypoint-initdb.d/"
+  #   ports:
+  #     - 27017:27017
+  #   networks:
+  #     - backend

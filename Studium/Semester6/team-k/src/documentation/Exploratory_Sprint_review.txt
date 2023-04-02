@@ -1,0 +1,19 @@
+Technologien:
+
+	backend:
+		- nest.js (Framework speziell für Micro-Service-Architektur)
+			- bietet Routinen für authentifizierung etc.
+		- MongoDB: Speicherung aller Daten in Documents; Kommentare werden als subdocuments gespeichert // eventuell Neo4j ansehen	
+		- Orchestration mittels Kubernetes; server lokal/extern oder cloud (caas)
+
+	frontend: 
+		- react (etabliert, leicht, flexibel)
+		- figma für den Prototypen
+	
+Szenarien / Epics:
+
+- Autentifizierung
+- upvote/downvote
+- Kommentar schreiben
+- Artikel anzeigen / sortieren
+	

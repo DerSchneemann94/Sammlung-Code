@@ -1,0 +1,79 @@
+Newsy Routen:
+	
+	authentication
+		signup	POST
+			email
+			password
+			username
+		
+			response:
+				access_token
+				email
+				username
+				id
+		signin	POST
+			email
+			password
+			
+			response:
+				access_token
+				email
+				username
+				id
+				image?
+	user
+		/:userId	GET
+			userId
+			
+			username
+			image?
+		/			PUT
+			image?
+			username?	//bitte eindeutig
+			email?
+			HEADER: BEARER JWT TOKEN contains EMAIL AND ID
+
+		/:userId/ratings
+			articles
+
+		/:userId/favorites
+			articles
+		
+
+
+
+	articles	GET
+		[Articles]
+		
+		/:articleId/rate			POST
+			userId			HEADER: BEARER JWT TOKEN contains EMAIL AND UserId
+			choice			//like,dislike,neutral(UP or DOWN)
+		
+		/:articleId					GET
+			//get specific article
+		
+		/:articleId/favorite		POST
+			userId			HEADER: BEARER JWT TOKEN contains EMAIL AND UserId
+			choice			//like,dislike,neutral(UP or DOWN)
+		
+		
+	
+	comments
+		
+
+		/commentsOfArticle/:articleId GET 
+			description: get all Comments of a article
+
+		/ 						POST
+			description: create a new Comment
+			body: articleId
+
+		/		 				DELETE (Optional) 
+			description: delete a comment
+
+		/commentRating 			PUT
+			description: make a new Upvote or Downvote for a comment (UP or DOWN)
+			body: commentId
+
+		/userComments/:userId 	GET
+			description: get all comments which user commented

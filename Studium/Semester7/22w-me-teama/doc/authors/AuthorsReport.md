@@ -1,0 +1,252 @@
+# per file listing:
+
+- ./alexa_skill/interactionModels/custom Pijarowski
+- ./alexa_skill/interactionModels/custom/de-DE.json Pijarowski
+- ./alexa_skill/lambda/lambda_function.py Pijarowski
+- ./alexa_skill/lambda/requirements.txt Pijarowski
+- ./alexa_skill/lambda/utils.py Pijarowski
+- ./alexa_skill/skill.json Pijarowski
+- ./bci/bci.egg-info/dependency_links.txt Karami
+- ./bci/bci.egg-info/PKG-INFO Karami
+- ./bci/bci.egg-info/SOURCES.txt Karami
+- ./bci/bci.egg-info/top_level.txt Karami
+- ./bci/build/lib/core/cortex.py Karami
+- ./bci/build/lib/core/publish.py Karami
+- ./bci/build/lib/core/subscribe_data.py Karami
+- ./bci/build/lib/core/train.py Karami
+- ./bci/build/lib/core/train_feedback_live.py Karami
+- ./bci/core/cortex.py Karami
+- ./bci/core/publish.py Karami
+- ./bci/core/subscribe_data.py Karami
+- ./bci/core/train.py Karami
+- ./bci/core/train_feedback_live.py Karami
+- ./bci/requirements.txt Karami
+- ./bci/setup.py Karami Dietenmeier Pijarowski
+- ./ESP32_CameraServer_AP_20220120/.vscode/arduino.json
+- ./ESP32_CameraServer_AP_20220120/.vscode/c_cpp_properties.json
+- ./ESP32_CameraServer_AP_20220120/.vscode/settings.json
+- ./ESP32_CameraServer_AP_20220120/app_httpd.cpp
+- ./ESP32_CameraServer_AP_20220120/CameraWebServer_AP.cpp Dietenmeier
+- ./ESP32_CameraServer_AP_20220120/CameraWebServer_AP.h
+- ./ESP32_CameraServer_AP_20220120/camera_index.h
+- ./ESP32_CameraServer_AP_20220120/camera_pins.h
+- ./ESP32_CameraServer_AP_20220120/ESP32_CameraServer_AP_20220120.ino Dietenmeier
+- ./ESP32_CameraServer_AP_20220120/ESP32_CameraServer_AP_20220120.ino.bin
+- ./ESP32_CameraServer_AP_20220120/Notes.txt
+- ./gestureClassifier/.gitignore Pijarowski
+- ./gestureClassifier/data/.gitkeep Pijarowski
+- ./gestureClassifier/models/gesture_clf.pth Pijarowski
+- ./gestureClassifier/ReadMe.md Pijarowski
+- ./gestureClassifier/requirements.txt Pijarowski
+- ./gestureClassifier/runs/.gitkeep Pijarowski
+- ./gestureClassifier/setup.py Pijarowski
+- ./gestureClassifier/src/demo.py Pijarowski
+- ./gestureClassifier/src/dynamic_dsgen.py Pijarowski
+- ./gestureClassifier/src/gesture_classifier.py Pijarowski
+- ./gestureClassifier/src/gesture_clf.ipynb Pijarowski
+- ./gestureClassifier/src/gesture_clf.py Pijarowski
+- ./gestureClassifier/src/model/conv_clf.pth Pijarowski
+- ./gestureClassifier/src/utils/base_dir.py Pijarowski
+- ./gestureClassifier/src/utils/class_mapping.py Pijarowski
+- ./gestureClassifier/src/utils/generate_class_mapping.py Pijarowski
+- ./gestureClassifier/src/utils/model_dec.py Pijarowski
+- ./gestureClassifier/src/utils/preprocess.py Pijarowski
+- ./RoboModule/build/lib/RoboModule/roboModule.py Dietenmeier
+- ./RoboModule/build/lib/src/roboModule.py Dietenmeier
+- ./RoboModule/RoboModule/roboModule.py Dietenmeier
+- ./RoboModule/RoboModule.egg-info/dependency_links.txt Dietenmeier
+- ./RoboModule/RoboModule.egg-info/PKG-INFO Dietenmeier
+- ./RoboModule/RoboModule.egg-info/SOURCES.txt Dietenmeier
+- ./RoboModule/RoboModule.egg-info/top_level.txt Dietenmeier
+- ./RoboModule/setup.py Dietenmeier
+- ./RoboterGatewayService/ActionSelector/ActionSelector.py Rothenberger
+- ./RoboterGatewayService/ActionSelector/ActionSeletorInterface.py Rothenberger
+- ./RoboterGatewayService/Classifier/CommandIdentityChecker.py Rothenberger Pijarowski
+- ./RoboterGatewayService/CommandReceivers/CommandReceiverInterface.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver/camera.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver/GestureCommandReceiver.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver/GestureCommandTranslator.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver/gestures.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver/requirements.txt Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver/roboModule.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/Models/Command.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/ThoughtCommandReceiver/ThoughtCommandReceiver.py Rothenberger Karami
+- ./RoboterGatewayService/CommandReceivers/ThoughtCommandReceiver/ThoughtCommandTranslator.py Rothenberger Karami
+- ./RoboterGatewayService/CommandReceivers/VoiceCommandReceiver/VoiceCommandReceiver.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/VoiceCommandReceiver/VoiceCommandTranslator.py Rothenberger
+- ./RoboterGatewayService/config/configuration.ini Rothenberger
+- ./RoboterGatewayService/config/ConfigurationService.py Rothenberger
+- ./RoboterGatewayService/Patterns/Pattern.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternDao/PatternDaoImpl.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternDao/PatternDaoInterface.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternDao/patterns.csv Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternDao/patterns2.csv Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternExecutor.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternRecorder.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/RobotCommunicator/RobotCommunicatorImpl.py Rothenberger Dietenmeier
+- ./RoboterGatewayService/RobotCommunicator/RobotCommunicatorInterface.py Rothenberger Dietenmeier
+- ./RoboterGatewayService/RobotGateway.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Test/MqttPublisher.py Rothenberger Pijarowski
+- ./RoboterGatewayService/Timer/Scheduler.py Rothenberger Karami
+- ./SmartRobotCarV4.0_V1_20220303/.vscode/arduino.json
+- ./SmartRobotCarV4.0_V1_20220303/.vscode/c_cpp_properties.json
+- ./SmartRobotCarV4.0_V1_20220303/.vscode/settings.json
+- ./SmartRobotCarV4.0_V1_20220303/addLibrary/FastLED-master.zip
+- ./SmartRobotCarV4.0_V1_20220303/addLibrary/IRremote.zip
+- ./SmartRobotCarV4.0_V1_20220303/addLibrary/NewPing.zip
+- ./SmartRobotCarV4.0_V1_20220303/addLibrary/pitches.zip
+- ./SmartRobotCarV4.0_V1_20220303/ApplicationFunctionSet_xxx0.cpp
+- ./SmartRobotCarV4.0_V1_20220303/ApplicationFunctionSet_xxx0.h
+- ./SmartRobotCarV4.0_V1_20220303/ArduinoJson-v6.11.1.h
+- ./SmartRobotCarV4.0_V1_20220303/Description.txt
+- ./SmartRobotCarV4.0_V1_20220303/DeviceDriverSet_xxx0.cpp
+- ./SmartRobotCarV4.0_V1_20220303/DeviceDriverSet_xxx0.h
+- ./SmartRobotCarV4.0_V1_20220303/I2Cdev.cpp
+- ./SmartRobotCarV4.0_V1_20220303/I2Cdev.h
+- ./SmartRobotCarV4.0_V1_20220303/IRremote.cpp
+- ./SmartRobotCarV4.0_V1_20220303/IRremote.h
+- ./SmartRobotCarV4.0_V1_20220303/IRremoteInt.h
+- ./SmartRobotCarV4.0_V1_20220303/MPU6050.cpp
+- ./SmartRobotCarV4.0_V1_20220303/MPU6050.h
+- ./SmartRobotCarV4.0_V1_20220303/MPU6050_getdata.cpp
+- ./SmartRobotCarV4.0_V1_20220303/MPU6050_getdata.h
+- ./SmartRobotCarV4.0_V1_20220303/SmartRobotCarV4.0_V1_20220303.ino
+- ./SmartRobotCarV4.0_V1_20220303/SmartRobotCarV4.0_V1_20220303.ino.standard.hex
+- ./TryoutCode/alexa/publish.py Pijarowski Dietenmeier
+- ./TryoutCode/alexa/requirements.txt Dietenmeier
+- ./TryoutCode/alexa/subscribe.py Pijarowski Dietenmeier
+- ./TryoutCode/raspberry_scripts/alexa.py Dietenmeier
+- ./TryoutCode/raspberry_scripts/camera.py Rothenberger
+- ./TryoutCode/raspberry_scripts/capture_cam.bash Dietenmeier
+- ./TryoutCode/raspberry_scripts/gestures.py Dietenmeier
+- ./TryoutCode/raspberry_scripts/send.py Dietenmeier
+
+# per author listing:
+
+## Dietenmeier
+
+- ./bci/setup.py Karami Dietenmeier Pijarowski
+- ./ESP32_CameraServer_AP_20220120/CameraWebServer_AP.cpp Dietenmeier
+- ./ESP32_CameraServer_AP_20220120/ESP32_CameraServer_AP_20220120.ino Dietenmeier
+- ./RoboModule/build/lib/RoboModule/roboModule.py Dietenmeier
+- ./RoboModule/build/lib/src/roboModule.py Dietenmeier
+- ./RoboModule/RoboModule/roboModule.py Dietenmeier
+- ./RoboModule/RoboModule.egg-info/dependency_links.txt Dietenmeier
+- ./RoboModule/RoboModule.egg-info/PKG-INFO Dietenmeier
+- ./RoboModule/RoboModule.egg-info/SOURCES.txt Dietenmeier
+- ./RoboModule/RoboModule.egg-info/top_level.txt Dietenmeier
+- ./RoboModule/setup.py Dietenmeier
+- ./RoboterGatewayService/RobotCommunicator/RobotCommunicatorImpl.py Rothenberger Dietenmeier
+- ./RoboterGatewayService/RobotCommunicator/RobotCommunicatorInterface.py Rothenberger Dietenmeier
+- ./RoboterGatewayService/Patterns/Pattern.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternDao/PatternDaoImpl.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternDao/PatternDaoInterface.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternDao/patterns.csv Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternDao/patterns2.csv Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternExecutor.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternRecorder.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/RobotGateway.py Rothenberger Karami Dietenmeier
+- ./TryoutCode/alexa/publish.py Pijarowski Dietenmeier
+- ./TryoutCode/alexa/requirements.txt Dietenmeier
+- ./TryoutCode/alexa/subscribe.py Pijarowski Dietenmeier
+- ./TryoutCode/raspberry_scripts/alexa.py Dietenmeier
+- ./TryoutCode/raspberry_scripts/capture_cam.bash Dietenmeier
+- ./TryoutCode/raspberry_scripts/gestures.py Dietenmeier
+- ./TryoutCode/raspberry_scripts/send.py Dietenmeier
+
+## Karami
+
+- ./bci/bci.egg-info/dependency_links.txt Karami
+- ./bci/bci.egg-info/PKG-INFO Karami
+- ./bci/bci.egg-info/SOURCES.txt Karami
+- ./bci/bci.egg-info/top_level.txt Karami
+- ./bci/build/lib/core/cortex.py Karami
+- ./bci/build/lib/core/publish.py Karami
+- ./bci/build/lib/core/subscribe_data.py Karami
+- ./bci/build/lib/core/train.py Karami
+- ./bci/build/lib/core/train_feedback_live.py Karami
+- ./bci/core/cortex.py Karami
+- ./bci/core/publish.py Karami
+- ./bci/core/subscribe_data.py Karami
+- ./bci/core/train.py Karami
+- ./bci/core/train_feedback_live.py Karami
+- ./bci/requirements.txt Karami
+- ./bci/setup.py Karami Dietenmeier Pijarowski
+- ./RoboterGatewayService/CommandReceivers/ThoughtCommandReceiver/ThoughtCommandReceiver.py Rothenberger Karami
+- ./RoboterGatewayService/CommandReceivers/ThoughtCommandReceiver/ThoughtCommandTranslator.py Rothenberger Karami
+- ./RoboterGatewayService/Patterns/Pattern.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternDao/PatternDaoImpl.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternDao/PatternDaoInterface.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternDao/patterns.csv Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternDao/patterns2.csv Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternExecutor.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Patterns/PatternRecorder.py Rothenberger Karami Dietenmeier
+- ./RoboterGatewayService/Timer/Scheduler.py Rothenberger Karami
+- ./RoboterGatewayService/RobotGateway.py Rothenberger Karami Dietenmeier
+
+## Pijarowski
+
+- ./alexa_skill/interactionModels/custom Pijarowski
+- ./alexa_skill/interactionModels/custom/de-DE.json Pijarowski
+- ./alexa_skill/lambda/lambda_function.py Pijarowski
+- ./alexa_skill/lambda/requirements.txt Pijarowski
+- ./alexa_skill/lambda/utils.py Pijarowski
+- ./alexa_skill/skill.json Pijarowski
+- ./bci/setup.py Karami Dietenmeier Pijarowski
+- ./gestureClassifier/.gitignore Pijarowski
+- ./gestureClassifier/data/.gitkeep Pijarowski
+- ./gestureClassifier/models/gesture_clf.pth Pijarowski
+- ./gestureClassifier/ReadMe.md Pijarowski
+- ./gestureClassifier/requirements.txt Pijarowski
+- ./gestureClassifier/runs/.gitkeep Pijarowski
+- ./gestureClassifier/setup.py Pijarowski
+- ./gestureClassifier/src/demo.py Pijarowski
+- ./gestureClassifier/src/dynamic_dsgen.py Pijarowski
+- ./gestureClassifier/src/gesture_classifier.py Pijarowski
+- ./gestureClassifier/src/gesture_clf.ipynb Pijarowski
+- ./gestureClassifier/src/gesture_clf.py Pijarowski
+- ./gestureClassifier/src/model/conv_clf.pth Pijarowski
+- ./gestureClassifier/src/utils/base_dir.py Pijarowski
+- ./gestureClassifier/src/utils/class_mapping.py Pijarowski
+- ./gestureClassifier/src/utils/generate_class_mapping.py Pijarowski
+- ./gestureClassifier/src/utils/model_dec.py Pijarowski
+- ./gestureClassifier/src/utils/preprocess.py Pijarowski
+- ./TryoutCode/alexa/publish.py Pijarowski Dietenmeier
+- ./TryoutCode/alexa/subscribe.py Pijarowski Dietenmeier
+- ./RoboterGatewayService/Classifier/CommandIdentityChecker.py Rothenberger Pijarowski
+- ./RoboterGatewayService/Test/MqttPublisher.py Rothenberger Pijarowski
+
+## Rothenberger
+
+- ./RoboterGatewayService/ActionSelector/ActionSelector.py Rothenberger
+- ./RoboterGatewayService/ActionSelector/ActionSeletorInterface.py Rothenberger
+- ./RoboterGatewayService/Classifier/CommandIdentityChecker.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/CommandReceiverInterface.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver/camera.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver/GestureCommandReceiver.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver/GestureCommandTranslator.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver/gestures.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver/requirements.txt Rothenberger
+- ./RoboterGatewayService/CommandReceivers/GestureCommandReceiver/roboModule.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/Models/Command.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/ThoughtCommandReceiver/ThoughtCommandReceiver.py Rothenberger Karami
+- ./RoboterGatewayService/CommandReceivers/ThoughtCommandReceiver/ThoughtCommandTranslator.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/VoiceCommandReceiver/VoiceCommandReceiver.py Rothenberger
+- ./RoboterGatewayService/CommandReceivers/VoiceCommandReceiver/VoiceCommandTranslator.py Rothenberger
+- ./RoboterGatewayService/config/configuration.ini Rothenberger
+- ./RoboterGatewayService/config/ConfigurationService.py Rothenberger
+- ./RoboterGatewayService/Patterns/Pattern.py Rothenberger
+- ./RoboterGatewayService/Patterns/PatternDao/PatternDaoImpl.py Rothenberger
+- ./RoboterGatewayService/Patterns/PatternDao/PatternDaoInterface.py Rothenberger
+- ./RoboterGatewayService/Patterns/PatternDao/patterns.csv Rothenberger
+- ./RoboterGatewayService/Patterns/PatternDao/patterns2.csv Rothenberger
+- ./RoboterGatewayService/Patterns/PatternExecutor.py Rothenberger
+- ./RoboterGatewayService/Patterns/PatternRecorder.py Rothenberger
+- ./RoboterGatewayService/RobotCommunicator/RobotCommunicatorImpl.py Rothenberger Dietenmeier
+- ./RoboterGatewayService/RobotCommunicator/RobotCommunicatorInterface.py Rothenberger
+- ./RoboterGatewayService/RobotGateway.py Rothenberger
+- ./RoboterGatewayService/Test/MqttPublisher.py Rothenberger
+- ./RoboterGatewayService/Timer/Scheduler.py Rothenberger
+- ./TryoutCode/raspberry_scripts/camera.py Rothenberger

@@ -1,0 +1,10 @@
+setup.py
+bci.egg-info/PKG-INFO
+bci.egg-info/SOURCES.txt
+bci.egg-info/dependency_links.txt
+bci.egg-info/top_level.txt
+core/cortex.py
+core/publish.py
+core/subscribe_data.py
+core/train.py
+core/train_feedback_live.py

@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cnd-newsy-k8s
+spec:
+  selector:
+    matchLabels:
+      app: cnd-newsy-k8s
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: cnd-newsy-k8s
+    spec:
+      containers:
+        - name: cnd-api-gateway
+          image: arkanipro/cnd-api-gateway
+          ports:
+            - containerPort: 2999
+        - name: cnd-api-fetching
+          image: arkanipro/cnd-api-fetching
+          ports:
+            - containerPort: 3004
+        - name: cnd-articles
+          image: arkanipro/cnd-articles
+          ports:
+            - containerPort: 3001
+        - name: cnd-comments
+          image: arkanipro/cnd-comments
+          ports:
+            - containerPort: 3002
+        - name: cnd-user
+          image: arkanipro/cnd-user
+          ports:
+            - containerPort: 3000
